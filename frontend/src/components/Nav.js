@@ -8,15 +8,15 @@ import {
 	MenuButton,
 	MenuItem,
 	MenuList,
-} from "@chakra-ui/react";
+} from '@chakra-ui/react';
 import {
 	HamburgerIcon,
 	SunIcon,
 	CalendarIcon,
 	ChevronDownIcon,
-} from "@chakra-ui/icons";
-import { MdInbox, MdDarkMode } from "react-icons/md";
-import { useState } from "react";
+} from '@chakra-ui/icons';
+import { MdInbox, MdDarkMode } from 'react-icons/md';
+import { useState } from 'react';
 
 const Nav = () => {
 	const [toggled, setToggled] = useState(true);
