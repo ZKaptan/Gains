@@ -2,11 +2,10 @@ import React from 'react';
 import { HStack, Box, Text, Button } from '@chakra-ui/react';
 import { BsPersonFill } from 'react-icons/bs';
 import { MdThumbUp } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 const WorkoutPanel = ({ workout }) => {
 	return (
-		// TODO: Make border responsive
-
 		<HStack
 			gap="1"
 			border="2px"

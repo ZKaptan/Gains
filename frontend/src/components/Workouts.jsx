@@ -7,7 +7,7 @@ const Workouts = () => {
 	return (
 		<VStack alignItems="flex-start">
 			{workouts.map((workout) => (
-				<WorkoutPanel workout={workout} />
+				<WorkoutPanel key={workout.id} workout={workout} />
 			))}
 		</VStack>
 	);
